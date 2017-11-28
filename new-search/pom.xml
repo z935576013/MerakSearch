@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.merak</groupId>
-	<artifactId>merak-hotel-search</artifactId>
+	<artifactId>new-search</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>merak-hotel-search</name>
-	<description>merak-hotel-search</description>
+	<name>new-search</name>
+	<description>new-search</description>
 	<properties>
 		<jackson.version>2.4.2</jackson.version>
 		<scala.version>2.11.8</scala.version>
@@ -35,7 +35,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.sdx.merak</groupId>
-			<artifactId>merak-hotelinfo-service-outbound-intf</artifactId>
+			<artifactId>newinfo-service-outbound-intf</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
